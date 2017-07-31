@@ -8,8 +8,8 @@ from os.path import basename
 from boto.s3.connection import S3Connection
 from multiprocessing.pool import ThreadPool
 
-#Test Items
-#python test.py --materialID "SOMEFILENAME" --s3KeyID "..."  --s3Secret "...." --s3BaseKey "somebasekey" --s3Bucket "somebuckey" --s3_sub_key ""
+# Test Items
+# python test.py --materialID "SOMEFILENAME" --s3KeyID "..."  --s3Secret "...." --s3BaseKey "somebasekey" --s3Bucket "somebuckey" --s3_sub_key ""
 #
 #
 TEMP_DIR_PATH = "/mnt/output_package/"
